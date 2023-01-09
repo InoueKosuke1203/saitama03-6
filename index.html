@@ -187,11 +187,11 @@ body { margin: 0; padding: 0; }
 	const center = [139.62122803718805, 35.90714919681077];
 	const secondcenter = [139.62087263848724, 35.906672483381136];
 
-	const ichi = [ 139.62185404192417, 35.9058212904511];
-	const ni = [139.62170580331448, 35.9064425637821];
-	const san = [139.62124911378783, 35.90642973332312];
-	const yon = [139.62077431509277, 35.90642973332788];
-	const go = [139.62076740054854, 35.90746957375639];
+	// const ichi = [ 139.62185404192417, 35.9058212904511];
+	// const ni = [139.62170580331448, 35.9064425637821];
+	// const san = [139.62124911378783, 35.90642973332312];
+	// const yon = [139.62077431509277, 35.90642973332788];
+	// const go = [139.62076740054854, 35.90746957375639];
 
 	const straight = 'https://lh3.googleusercontent.com/pw/AL9nZEX1rPmKvpJf2QGLK1lMDopcp6pLTFsxroZtO5RCsJW7--iWtkeCpZwTplDVCyXKb1LWQ4pYj6cdwt7BxOGPSec2AohqNWmmkKcfZrxR7nD27zczlZGUfrxFTAKfn9gLNSBMTLmqn8plXPcg2wTXvvhU=s809-no?authuser=0'
 	//const crossLeft = 'https://lh3.googleusercontent.com/pw/AL9nZEWjkpoSpNHXZqHiUfwbmY2eG-2Os__jVb2-mG4TbbqpWnQ5hujVeG4VB08GUiegZyib6dmMN1ijTvvgqElD0EwL9NKHxPgG_foKnRsqALk1xzh9Kg8dnpp8PnNP0jtsr9mP2WkmeIbufi5sdVi1Rki1=s880-no?authuser=0'
@@ -460,7 +460,7 @@ body { margin: 0; padding: 0; }
             n = n - 1
 			document.getElementById('target').textContent = 'ツタの生えた建物'
             document.getElementById('picture').src = pictsuta
-			document.getElementById('direction').src = tLeft
+			document.getElementById('direction').src = left
 
 			popup1 = new mapboxgl.Marker(el1)
     		.setLngLat(tsuta)
@@ -478,7 +478,7 @@ body { margin: 0; padding: 0; }
         	n = n - 1
 			document.getElementById('target').textContent = '大間の関'
         	document.getElementById('picture').src = pichugu
-			document.getElementById('direction').src = tRight
+			document.getElementById('direction').src = right
 
 			popup1 = new mapboxgl.Marker(el1)
     		.setLngLat(hugu)
@@ -514,7 +514,7 @@ body { margin: 0; padding: 0; }
             n = n - 1
 			document.getElementById('target').textContent = '大原医院'
             document.getElementById('picture').src = picoohara
-			document.getElementById('direction').src = tLeft
+			document.getElementById('direction').src = left
 
 			popup1 = new mapboxgl.Marker(el1)
     		.setLngLat(oohara)
@@ -532,7 +532,7 @@ body { margin: 0; padding: 0; }
             n = n - 1
 			document.getElementById('target').textContent = 'EXELCO'
             document.getElementById('picture').src = picexelco
-			document.getElementById('direction').src = nextRight
+			document.getElementById('direction').src = right
 
 			popup1 = new mapboxgl.Marker(el1)
     		.setLngLat(exelco)
